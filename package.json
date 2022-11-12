@@ -1,0 +1,29 @@
+{
+  "name": "simple_todo_task",
+  "version": "1.0.0",
+  "description": "A simple todo task using mongodb and Nodejs CRUD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/layztobi/simple_todo_task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/layztobi/simple_todo_task/issues"
+  },
+  "homepage": "https://github.com/layztobi/simple_todo_task#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
